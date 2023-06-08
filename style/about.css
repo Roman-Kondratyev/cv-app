@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-style: normal;
+    font-family: 'DM Sans';
+}
+
+body {
+    width: 1220px;
+    margin: auto;
+    background: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    background-image: url(../img/img.svg);
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+header nav {
+    display: flex;
+}
+
+header nav p {
+    font: 500 22px "DM Sans";
+    color: #181717;
+}
+
+
+.aboutimg {
+    background-image: url(../img/aboutimg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 405px;
+    height: 450px;
+
+}
+
+main {
+    margin-top: 147px;
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.about div h1 {
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.about p {
+    font: 400 24px 'DM Sans';
+    color: #606060;
+    width: 575px;
+    height: px;
+}
+
+.skils {
+    margin-top: 70px;
+}
+
+
+.skils div {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    margin-top: 30px;
+}
+
+.skils div h3 {
+    font: 500 22px 'DM Sans';
+    text-decoration-line: underline;
+    color: #181717;
+}
+
+.skils div p {
+    font: 400 20px 'DM Sans';
+    width: 430px;
+    color: #181717;
+
+}
+
+.line {
+    width: 1200px;
+    height: 2px;
+    background: #181717;
+    margin-top: 100px;
+}
+
+.strelka {
+    background-image: url(../img/strelka2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 21px;
+    margin-top: 10px;
+}
+
+.content {
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content div {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+
+}
+
+.content div h2 {
+    width: 700px;
+    font: 400 32px 'DM Sans';
+    color: #181717;
+}
+
+.content h2{
+font: 400 32px 'DM Sans';
+color: #181717;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 126px;
+}
+
+footer div {
+    font: 500 22px "DM Sans";
+    color: #2429AF;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer nav p {
+    font: 500 21px "DM Sans";
+    color: #181717;
+
+}
+
+footer nav p:not(:last-child) {
+    margin-right: 20px;
+}
