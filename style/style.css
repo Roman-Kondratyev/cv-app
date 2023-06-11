@@ -15,6 +15,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+     top: 0%;
+    width: 1220px;
+    background-color: #E5E5E5;
+    padding: 15px 0;
 }
 
 
@@ -28,13 +32,17 @@ header {
 
 header nav {
     display: flex;
+    justify-content: space-between;  
 }
 
-header nav p {
-
+header nav p a{
     font: 500 22px "DM Sans";
     color: #181717;
-    
+    text-decoration: none;
+}
+
+header nav p a:hover{
+    text-decoration: underline;
 }
 
 header nav p:not(:last-child){

@@ -15,6 +15,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 1220px;
+    background-color: #E5E5E5;
+    padding: 15px 0;
 }
 
 .img {
@@ -29,13 +34,20 @@ header {
 
 header nav {
     display: flex;
+    justify-content: space-between;
+
 }
 
-header nav p {
+header nav p a {
     font: 500 22px "DM Sans";
     color: #181717;
+    margin-left: 21px;
+    text-decoration: none;
 }
 
+header nav p a:hover {
+    text-decoration: underline;
+}
 
 .aboutimg {
     background-image: url(../img/aboutimg.svg);
@@ -129,9 +141,9 @@ main {
     color: #181717;
 }
 
-.content h2{
-font: 400 32px 'DM Sans';
-color: #181717;
+.content h2 {
+    font: 400 32px 'DM Sans';
+    color: #181717;
 }
 
 

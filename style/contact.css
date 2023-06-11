@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-style: normal;
+    font-family: "DM sans";
+}
+
+body {
+    width: 1220px;
+    height: 915px;
+    margin: auto;
+    background: #E5E5E5;
+}
+
+.image {
+    background-image: url(../img/img.svg);
+    width: 64px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 1220px;
+    background-color: #E5E5E5;
+    padding: 15px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+header nav p a{
+    margin-left: 25px;
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration: none;
+}
+
+header nav p a:hover{
+    text-decoration: underline;
+}
+
+.contact h1 {
+    margin-top: 109px;
+    font: 500 60px 'DM Sans';
+    color: #181717;
+}
+
+.contact p {
+    margin-top: 10px;
+    font: 400 22px 'DM Sans';
+    color: #606060;
+}
+
+.email {
+    margin-top: 52px;
+
+}
+
+.email div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+input {
+
+    width: 676px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding-left: 22px;
+}
+
+.email p {
+    margin-left: 40px;
+    font: 400 22px 'DM Sans';
+    color: #606060;
+    width: 500px;
+}
+
+button {
+    margin-top: 36px;
+    width: 150px;
+    height: 50px;
+    background-color: #181717;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: ;
+font-style: normal;
+font: 700 18px 'DM Sans';
+font-size: ;
+line-height: 23px;
+}
+
+
+footer {
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    font: 500 22px "DM Sans";
+    color: #2429AF;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer nav p {
+    font: 500 21px "DM Sans";
+    color: #181717;
+    margin-left: 21px;
+}
